@@ -1,8 +1,10 @@
 
 $(document).ready(function() {
- $('#myForm').submit(function(event) {
- event.preventDefault
+ $("form#myForm").submit(function(event) {
+   event.preventDefault();
 
-var value1 = $("input:radio[names=answer1]:checked").val();
-var value2 = $("input:radio[names=answer2]:checked").val();
-var value3 = $("input:radio[names=answer3]:checked").val();
+var Q1 =parseInt($("input:radio[name=answer1]:checked")).val();
+var Q2 =parseInt($("input:radio[name=answer2]:checked")).val();
+var Q3 =parseInt($("input:radio[name=answer3]:checked")).val();
+$("#yourscore").text(Q1+Q2+Q3);
+  )};
