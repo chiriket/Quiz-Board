@@ -1,7 +1,10 @@
-hi{
+h1{
   color : steelblue;
   text-align: center;
 }
 body{
-  background-color: lightgray;
+  background-color: gray;
+}
+.jumbotron{
+  color: steelblue;
 }
