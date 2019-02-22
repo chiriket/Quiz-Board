@@ -1,4 +1,8 @@
 
 $(document).ready(function() {
- $(form#formOne).submit(function(event) {
-var answer = $("input:radio[name=answer]:checked").val();
+ $('#myForm').submit(function(event) {
+ event.preventDefault
+
+var value1 = $("input:radio[names=answer1]:checked").val();
+var value2 = $("input:radio[names=answer2]:checked").val();
+var value3 = $("input:radio[names=answer3]:checked").val();
