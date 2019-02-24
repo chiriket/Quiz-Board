@@ -8,3 +8,4 @@ var Q2 =parseInt($("input:radio[name=answer2]:checked")).val();
 var Q3 =parseInt($("input:radio[name=answer3]:checked")).val();
 $("#yourscore").text(Q1+Q2+Q3);
   )};
+)};
