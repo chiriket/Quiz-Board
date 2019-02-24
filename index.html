@@ -13,15 +13,18 @@
         <div class="jumbotron">
     <h1>JavaScript Quiz</h1>
   </div>
+  <div class="row">
+  <div class="panel panel-info">
   <div class="form-group">
       <label for="born">Date:</label>
       <input id="born" class="form-control" type="date">
     </div>
-
-    <form id ="myForm">
-    <p>1.What is the shortform of JavaScript</p>
+  </div>
+  </div>
+  <p>1.What is the shortform of JavaScript</p>
     <div class="radio">
           <label>
+            <form id ="myForm">
             <input type="radio" name="answer1" value="0" checked>
             SJ<br>
             <input type="radio" name="answer1" value="0">
@@ -33,7 +36,7 @@
     <p>2.What is the other name of JavaScript</p>
     <div class="radio">
           <label>
-            <input type="radio" name="answer2" value="10" checked>
+            <input type="radio" name="answer2" value="10">
             ECMAscript<br>
             <input type="radio" name="answer2" value="0">
             JS<br>
@@ -44,14 +47,15 @@
      <p>3.Jquery is a library containing JavaScript</p>
      <div class="radio">
           <label>
-            <input type="radio" name="answer3" value="10" checked>
+            <input type="radio" name="answer3" value="10">
             Yes<br>
             <input type="radio" name="answer3" value="0">
             No<br>
+              </form>
           </label>
         </div>
       <button type="submit" class="btn">submit</button>
-    </form>
+
   <div id= "yourscore"></div>
   </body>
 </html>
