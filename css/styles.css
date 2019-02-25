@@ -3,8 +3,9 @@ h1{
   text-align: center;
 }
 body{
-  background-color: gray;
+  background-color:
 }
 .jumbotron{
-  color: steelblue;
+  color: yellow;
+  background-color: black;
 }
