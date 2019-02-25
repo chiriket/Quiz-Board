@@ -5,15 +5,18 @@
 The quiz is made in radio form.It tests on JavaScript with students being recquired to select an answer.Each question carries 10 marks.On submitting their answers they will get back there score where those with less than 50 are given the option to retake.
 
 ## Setup/Installation Requirements
+github
+
 
 
 ##BDD
 
 |   BEHAVIOUR      | INPUT     | OUTPUT      |
 |------------------|-----------|-------------|      
-|base = height     |  6,6,6    | equilateral | |                  |           |             |
-| =hypotenus       |           |             |   
-|------------------|-----------|-------------|      |base = height or  |  6,6,5    | isoscelese  ||
+| correct answer   |  10       |             |
+|    checked       |           |             |         
+|                  |           |             |   
+|------------------|-----------|-------------|      
 
 
 
