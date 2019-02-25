@@ -9,18 +9,18 @@ github
 
 
 
-##BDD
+## BDD
 
 |   BEHAVIOUR      | INPUT     | OUTPUT      |
 |------------------|-----------|-------------|      
-| correct answer   |  10       |             |
+| correct answer   |  20       |    20%      |
 |    checked       |           |             |         
 |                  |           |             |   
 |------------------|-----------|-------------|      
+| wrong answer     |   0       |   0%        |
+|------------------|-----------|-------------|
 
-
-
-##Bugs
+## Bugs
 
 No known Bugs.
 

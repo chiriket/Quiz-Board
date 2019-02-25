@@ -17,11 +17,11 @@
   <div class="row">
  <div class="form-group">
     Name:<br><input type="text" name="Name"><br>
-  <button type="submit" class="btn btn-info">submit</button>
+
   </div>
   <div class="panel panel-default">
   <div class="panel-heading">
-  <h2 class="panel-title">Questions</h2>
+  <h2 class="panel-title">Answer the questions below (20 marks each)</h2>
   </div>
   <form id ="myForm">
   <p>1.What is the shortform of JavaScript.</p>
@@ -66,18 +66,19 @@
             No<br>
           </label>
         </div>
-    <p>5.JavaScript is an object based programming language</p>
+    <p>5.JavaScript is an object based programming language.True or False</p>
     <div class="radio">
            <label>
-             <input type="radio" name="answer4" value="20">
+             <input type="radio" name="answer5" value="20">
              True<br>
-             <input type="radio" name="answer4" value="0">
+             <input type="radio" name="answer5" value="0">
              False<br>
            </label>
          </div>
-        <button type="submit" class="btn btn-info" id ="button1">Your score</button>
+        <button type="submit" class="btn btn-info" id ="button1">Your score</button><br>
+        <div id="output"> </div>
+        <div id="comment"> </div>
       <button type="reset" class="btn btn-warning" id ="reload"> Retake the Test</button>
     </form>
-   <div id="output"> </div>
   </body>
 </html>
