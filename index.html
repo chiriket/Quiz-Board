@@ -12,19 +12,19 @@
      <div class="row">
         <div class="jumbotron">
     <h1>JavaScript Quiz</h1>
+  </div>
+  </div>
   <div class="row">
  <div class="form-group">
-    First name:<br><input type="text" name="firstname"><br>
-    Last name:<br> <input type="text" name="lastname"><br>
-    </div>
-  </div>
+    Name:<br><input type="text" name="Name"><br>
+  <button type="submit" class="btn btn-info">submit</button>
   </div>
   <div class="panel panel-default">
   <div class="panel-heading">
   <h2 class="panel-title">Questions</h2>
   </div>
   <form id ="myForm">
-  <p>1.What is the shortform of JavaScript</p>
+  <p>1.What is the shortform of JavaScript.</p>
     <div class="radio">
         <label>
            <input type="radio" name="answer1" value="0" checked>
@@ -35,18 +35,18 @@
             js<br>
           </label>
         </div>
-    <p>2.What is the other name of JavaScript</p>
+    <p>2.Which of the following function of Array object calls a function for each element in the array?</p>
     <div class="radio">
           <label>
             <input type="radio" name="answer2" value="0">
-            ECMAscript<br>
+            concat()<br>
             <input type="radio" name="answer2" value="10">
-            JS<br>
+            forEach()<br>
             <input type="radio" name="answer2" value="0">
             I don't know
           </label>
         </div>
-     <p>3.Which of the below is not a datatype</p>
+     <p>3.Which of the below is not a datatype?</p>
      <div class="radio">
            <label>
              <input type="radio" name="answer3" value="0">
@@ -57,7 +57,7 @@
              forms
            </label>
          </div>
-     <p>4.Jquery is a library containing JavaScript</p>
+     <p>4.Jquery is a library containing JavaScript.</p>
      <div class="radio">
           <label>
             <input type="radio" name="answer4" value="10">
@@ -66,7 +66,8 @@
             No<br>
           </label>
         </div>
-      <button type="submit" class="btn">submit</button>
+        <button type="submit" class="btn btn-info" id ="button1">Your score</button>
+      <button type="reset" class="btn btn-warning" id ="reload"> Retake the Test</button>
     </form>
    <div id="output"> </div>
   </body>
